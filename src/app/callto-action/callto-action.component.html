@@ -1,0 +1,18 @@
+<section class="page-section bg-dark text-white">
+  <div class="container px-4 px-lg-5 text-center">
+    <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+    <!-- Tabla con datos -->
+    <table id="DataTable">
+      <tbody>
+        <tr *ngFor="let datum of data">
+          <th>{{ datum.Company }}</th>
+          <td>{{ datum.Cpu }}</td>
+          <td>{{ datum.Gpu }}</td>
+          <td>{{ datum.Ram }}</td>
+          <td>{{ datum.Inches }}</td>
+          <td>{{ datum.Price_in_euros }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
